@@ -2,7 +2,7 @@
 
 This is an example project to accompany a tutorial on using [Rollup](http://rollupjs.org/).
 
-
+测试版，未完成
 
 format说明：
 amd - 异步模块定义，与RequireJS等模块装载机一起使用
