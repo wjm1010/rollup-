@@ -2,14 +2,17 @@
 
 This is an example project to accompany a tutorial on using [Rollup](http://rollupjs.org/).
 
-测试版，未完成
 
-format说明：
-amd - 异步模块定义，与RequireJS等模块装载机一起使用
-cjs - CommonJS，适用于Node和Browserify / Webpack
-es - 将软件包保存为ES模块文件
-iife- 自动执行功能，适合作为<script>标签。（如果要为应用程序创建一个捆绑包，则可能需要使用此捆绑包，因为它会导致较小的文件大小。）
-umd-通用模块定义，工作方式amd，cjs以及iife所有在一个
-
-
-
+合并scripts代码，
+删除多余代码，
+编译成对旧浏览器友好的代码，
+支持在浏览器中使用Node模块
+能使用环境变量，
+尽可能的压缩，减少文件大小。
+编译打包样式
+允许使用嵌套规则
+可以使用Sass风格的变量
+编译后甚至可以在不支持新特性的旧浏览器中工作
+监听文件变化
+实时加载
+自动刷新浏览器。
